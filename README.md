@@ -1,2 +1,2 @@
-# [My Website](https://sabersz.github.io/My-Website/)
+# [My Website](https://sabersz.github.io)
 
