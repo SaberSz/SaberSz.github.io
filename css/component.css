@@ -83,6 +83,16 @@ events-content h2{
    letter-spacing: 1px;
    text-transform: uppercase;
 }
+.link-certificates {
+   /*font-size: 0.85em;
+   position: relative;
+   letter-spacing: 1px;*/
+   color: #fff
+}
+.link-certificates:hover,
+.link-certificates:focus {
+   color: #B4D47B;
+}
 
 .link:hover,
 .link:focus {
