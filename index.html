@@ -8,6 +8,9 @@
 	<title>I'm Dylan</title>
 	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/a.css" />
@@ -19,11 +22,12 @@
 	<!-- navigation -->
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">General Info</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Education</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-exp">Experience</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-software">My Projects</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Skills</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-training">Specialisation & Certification</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-docu">General Info</a></div>
 		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Hobbies and Interests</a></div>
 		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Goals</a></div>
 		<!-- <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contact</a></div> -->
@@ -53,7 +57,7 @@
 
 				5 years later I, fortunately, stumbled upon Deep Learning and was exposed to the marvelous things it can do. Now, instead of starting a new project I've had to go back in time and rebuild my Chess Engine. This time one thing's different, I'll let it learn how to beat me and master the art of playing Chess by itself.</p>
 				<nav class="bp-nav">
-					<a class="bp-nav__item bp-icon bp-icon--archive" href="CV.pdf"  target="_blank" data-info="Download my CV"><span>Download my CV</span></a>
+					<a class="bp-nav__item bp-icon bp-icon--archive" href="CV - Dylan Saldanha"  target="_blank" data-info="Download my CV"><span>Download my CV</span></a>
 				</nav>
 			</header>
 			<img class="poster" src="images/9.png" alt="img01" />
@@ -81,6 +85,24 @@
 			</div>
 			</header>
 			<!-- <img class="poster" src="images/6.jpg" alt="img06" /> -->
+		</div><div class="page" id="page-exp">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Experience</h1>
+				<p class="bp-header__desc"></p>
+				<p class="info">
+					<ul class="exp-list">
+						<li>
+							<h2>Jan 2019 - Present</h2>
+							<h3>Data Science Intern</h3>
+							<h4><a href= "https://nuvedalearning.com/" target="_blank">Nuveda Learning</a></h4>
+							<div class="col-sm-6">
+							<p>Working on "GOL", which aims to quantify a user's learning without having the person take tests. Created reports for users based on their learnings every week. Built a domain based spam document classifier using CNN and Doc2Vec (trained on Google News dataset) with an accuracy of 94%. Built a model using spaCy to extract relevant data like date and time from the user's learnings . Built an ALSTM to predict if the user will post his/her learning on a particular day with an accuracy of 92%. Deployed the above models on to AWS Sagemaker and used AWS Lambda to allow API access to front-end developers. Also, worked with AWS DynamoDB.</p>
+							</div>
+						</li>
+					</ul>
+				</p>
+			</header>
+			<!-- <img class="poster" src="images/2.jpg" alt="img02" /> -->
 		</div>
 		<div class="page" id="page-manuals">
 			<header class="bp-header cf">
@@ -89,10 +111,10 @@
 				<p class="info">
 					<ul class="resume-list">
 						<li>
-							<h2>2015-Present</h2>
+							<h2>2015-2019</h2>
 							<h3>Bachelors in Computer Engineering</h3>
 							<h4><a href= "http://vtu.ac.in/" target="_blank">Visvesvaraya Technological University</a></h4>
-							<p>CGPA 8.17</p>
+							<p>CGPA 8.11</p>
 						</li>
 						<li>
 							<h2>2013-2015</h2>
@@ -128,7 +150,8 @@
 						<div class="events-wrapper">
 							<div class="events">
 								<ol>
-									<li class="li-edits" ><a href="#0" data-date="16/01/2014" class="selected">Jul 18</a></li>
+									<li class="li-edits" ><a href="#0" data-date="01/09/2013" class="selected">Jan 2019</a></li>
+									<li class="li-edits" ><a href="#0" data-date="16/01/2014">Jul 18</a></li>
 									<li class="li-edits"><a href="#0" data-date="28/02/2014">May 18</a></li>
 									<li><a href="#0" data-date="20/04/2014">Mid Apr 18</a></li>
 									<li><a href="#0" data-date="15/05/2014">Early Apr 18</a></li>
@@ -150,7 +173,14 @@
 
 				<div class="events-content" style="height : 500px">
 					<ol class="ol-edits">
-						<li class="selected" data-date="16/01/2014">
+						<li class="selected" data-date="01/09/2013">
+							<h2>Hydrocarbon Exploration using Seismic Imaging</h2>
+							<em>Jan 2019 - May 2019</em>
+							<p>
+									Finding hydrocarbons through salt detection has been an intricate process, ever since they images salt the first time. Our solution to the problem is to basically use U-Nets which have shown state of the art results on image segmentation. Each pixel in the image is checked for the presence of salt and further on this is how the proportion of salt in that seismic image is calculated. Our model boasts an accuracy of 94.7% which is significantly higher than that of in the previous implementations.
+							</p>
+						</li>
+						<li data-date="16/01/2014">
 							<h2>WeByte</h2>
 							<em>July 2018 - August 2018</em>
 							<p>
@@ -274,10 +304,10 @@ problem-solving.</p></li>
                                 &#9;<a class="link-certificates" target="_blank" href="https://www.theschool.ai/courses/move-37-course/"> Move 37 by School of AI </a> <span style ="font-size: 0.65em;"><i>(Ongoing)</i></span>
                             </p></li>
 								<li ><p class="info">
-								&#9; <a class="link-certificates" target="_blank" href="https://in.udacity.com/course/machine-learning--ud262">Machine Learning by Georgia Tech </a><span style ="font-size: 0.65em;"><i>(Ongoing)</i></span>
+								&#9; <a class="link-certificates" target="_blank" href="https://in.udacity.com/course/machine-learning--ud262">Machine Learning by Georgia Tech </a><span style ="font-size: 0.65em;"></span>
 							</p></li>
 							<li ><p class="info">
-								&#9; <a class="link-certificates" target="_blank" href="https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/">Data Science and Machine Learning by Pierian Data </a><span style ="font-size: 0.65em;"><i>(Ongoing)</i></span>
+								&#9; <a class="link-certificates" target="_blank" href="http://ude.my/UC-FLTA30RX">Data Science and Machine Learning by Pierian Data </a><span style ="font-size: 0.65em;"></span>
 							</p></li>
 							<li ><p class="info">
 								&#9;Core Java Programming
