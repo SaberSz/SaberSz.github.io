@@ -208,9 +208,12 @@ a-edits{
 .info {
    font-size: 1.15em;
    max-width: 50%;
-   margin-top: 0em;
+   margin-top: 1.5em;
 }
 
+.info-sp li>p {
+   margin-top: 0em !important;
+}
 .info--li {
    font-size: 1.15em;
    max-width: 80%;
