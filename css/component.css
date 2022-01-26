@@ -170,6 +170,10 @@ events-content h2{
     list-style-type: none;
 }
 
+.ol-edits a{
+    text-decoration: none !important; 
+}
+
 a-edits{
    color :#fff;
 }
@@ -202,15 +206,15 @@ a-edits{
 /* page content */
 
 .info {
-   font-size: 1.25em;
+   font-size: 1.15em;
    max-width: 50%;
-   margin-top: 1.5em;
+   margin-top: 0em;
 }
 
 .info--li {
-   font-size: 1.25em;
+   font-size: 1.15em;
    max-width: 80%;
-   margin-top: 1em;
+   margin-top: 0.25em;
 }
 
 .hero-info h2 {
@@ -325,16 +329,16 @@ a-edits{
    border-left: 2px solid #40424a;
 }
 
-.exp-list li {
+.exp-list .exp-items {
    margin-bottom: 10px;
    position: relative;
 }
 
-.exp-list li:last-child {
+.exp-list .exp-items:last-child {
    margin-bottom: 0;
 }
 
-.exp-list li:after {
+.exp-list .exp-items:after {
    position: absolute;
    content: '';
    width: 15px;
@@ -342,7 +346,7 @@ a-edits{
    border: 2px solid #40424a;
    border-radius: 50px;
    background: #cacaca;
-   top: 30px;
+   top: 15px;
    left: -118px;
 }
 
@@ -363,7 +367,7 @@ a-edits{
    margin-top: 10px;
    margin-bottom: 0px;
 }
-.exp-list p {
+.exp-items li{
    font-size: 16px;
    margin-bottom: 0;
 }
@@ -422,21 +426,21 @@ a-edits{
 
   .exp-list {
    list-style: none;
-   margin-left: 60px;
-   padding-left: 110px;
+   margin-left: 5px;
+   padding-left: 15px;
    border-left: 2px solid #40424a;
 }
 
-.exp-list li {
+.exp-list .exp-items {
    margin-bottom: 0px;
    position: relative;
 }
 
-.exp-list li:last-child {
+.exp-list .exp-items:last-child {
    margin-bottom: 0;
 }
 
-.exp-list li:after {
+.exp-list .exp-items:after {
    position: absolute;
    content: '';
    width: 15px;
@@ -444,8 +448,8 @@ a-edits{
    border: 2px solid #40424a;
    border-radius: 50px;
    background: #cacaca;
-   top: 30px;
-   left: -118px;
+   top: 13px;
+   left: -24px;
 }
 
 .exp-list h2 {
@@ -466,7 +470,7 @@ a-edits{
    margin-bottom: 0px;
 }
 
-.exp-list p {
+.exp-items li {
     font-size: 10px;
    margin-bottom: 0;
 }
